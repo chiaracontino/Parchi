@@ -1,0 +1,206 @@
+@media (max-width: 768px) {
+    .top-bar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+
+  .top-bar nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .top-bar nav a {
+    margin: 10px 0;
+  }
+
+  .hero,
+  .intro,
+  .Attivita {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .hero img,
+  .intro img,
+  .Attivita img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hero-text,
+  .intro-text,
+  .Attivita-text {
+    padding: 0;
+  }
+
+  .parchi {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parco {
+    width: 90%;
+  }
+
+  .Attivita-text a {
+    margin-bottom: 10px;
+  }
+
+  footer{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+footer div:last-child{
+    margin-top: 10px;
+}}
+body {
+    margin: 0;
+    font-family: 'Rosarivo';
+    background: #f1f1f1;
+    color: #fff;
+  }
+  
+  .top-bar {
+    background-color: #3a1f1a;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+  }
+  
+  .top-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .hero {
+    background-color: #3a1f1a;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .hero img {
+    width: 50%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  .intro {
+    display: flex;
+    background:  #3a1f1a;
+    padding: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .intro-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .intro img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .parchi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #f1f1f1;
+    color: #3a1f1a;
+    padding: 40px 0;
+  }
+  
+  .parco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+    margin: 20px 0;
+    justify-content: center;
+  }
+  
+  .parco-text {
+    display: flex;
+    height: 200px;
+    background: #3a1f1a;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .parco img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .Attivita{
+    background: #3a1f1a;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Attivita-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .Attivita-text h2 {
+    margin-top: 0;
+  }
+  
+  .Attivita-text a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .Attivita img {
+    width: 50%;
+    height: auto;
+  }
+  
+  footer {
+    background: #3a1f1a;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 60px;
+  }
+  
+  footer a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
